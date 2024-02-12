@@ -1,0 +1,75 @@
+@media screen and (max-width:992px) {
+    header img{
+        display: none;
+        height: 91px;
+    }
+    nav .navbar-brand img{
+        display: inline-block !important;
+    }
+}
+
+nav .navbar-brand img{
+    display: none;
+}
+
+.col-nestleindia{ 
+    background-color: rgb(224, 224, 224);
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+}
+
+.nav-link{
+    text-decoration:none;
+    color:rgb(109, 107, 107)
+}
+
+.col-nav{
+    height:auto;
+    background-color: rgb(230, 236, 236);
+    display:flex;
+}
+
+.bodyhead{
+    margin: 40px 0;
+}
+
+.col-bh1{
+    box-shadow: 2px 4px gray;
+    background-color: rgb(244, 247, 247);
+    line-height: 1.6;
+}
+
+.latestnews{
+    /* height: auto; */
+    background-color: rgb(197, 38, 144);
+}
+.col-lnews{
+    /* height: 300px; */
+    line-height: 1.6;
+    
+}
+.Nestlenews{
+    /* height: auto; */
+    background-color: rgb(34, 129, 158);
+}
+.col-nnews{
+    /* height: 250px; */
+    line-height: 1.6;
+}
+
+.col-fhead{
+    line-height: 1.6;
+}
+
+footer .container{
+    display: flex;
+    gap: 16px;
+}
+
+footer .container a{
+    border-right: 1px solid black;
+    width: 100%;
+    
+}
